@@ -1,0 +1,20 @@
+{
+  "last_scraped": null,
+  "jobs": [
+    {
+      "id": "sample-1",
+      "title": "AI Product Manager - Governance (Senior Associate)",
+      "company": "JPMorgan Chase",
+      "location": "New York, NY, United States",
+      "url": "https://example.com/sample-job-1",
+      "source": "sample",
+      "score": 88,
+      "tier": 1,
+      "status": "pending_review",
+      "posted_at": null,
+      "scraped_at": null,
+      "salary": null,
+      "description_snippet": "Sample row so the dashboard has something to render before the first scrape runs. Delete once real scrapes come in."
+    }
+  ]
+}

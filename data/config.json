@@ -1,0 +1,52 @@
+{
+  "targets": {
+    "positions": [
+      "AI Product Manager",
+      "AI Product Associate",
+      "Strategy Associate"
+    ],
+    "companies": [
+      "JPMorgan Chase",
+      "Datadog",
+      "Robinhood",
+      "Plaid"
+    ],
+    "levels": [
+      "Associate",
+      "Senior Associate"
+    ],
+    "industries": [
+      "Financial Services",
+      "Fintech",
+      "AI/ML"
+    ],
+    "pay_range": {
+      "min": 120000,
+      "max": 220000,
+      "currency": "USD"
+    },
+    "locations": [
+      "New York, NY"
+    ]
+  },
+  "sources": {
+    "greenhouse_boards": [
+      "datadog",
+      "robinhood"
+    ],
+    "lever_companies": [
+      "plaid"
+    ],
+    "career_pages": [
+      {
+        "company": "JPMorgan Chase",
+        "url": "https://careers.jpmorgan.com/us/en/search-jobs",
+        "note": "Custom career site — needs a dedicated scraper. See scraper/sources/career_page_template.py"
+      }
+    ]
+  },
+  "scoring": {
+    "tier1_min": 85,
+    "tier2_min": 65
+  }
+}

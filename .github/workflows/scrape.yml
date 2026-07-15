@@ -2,7 +2,7 @@ name: Scrape jobs
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */2 * * *"   # every 2 hours (12x/day)
   workflow_dispatch: {}       # lets you trigger manually from the Actions tab
 
 permissions:
